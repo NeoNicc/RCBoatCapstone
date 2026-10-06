@@ -1,0 +1,37 @@
+﻿# --- Build & Compiled Outputs ---
+**/target/
+**/build/
+**/dist/
+*.class
+*.jar
+*.war
+*.exe
+
+# --- Embedded / PlatformIO ---
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+*.hex
+*.elf
+*.bin
+
+# --- IDEs & Editors ---
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.classpath
+.project
+.settings/
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets & Environment Configs ---
+*.env
+application-local.yml
+application-local.properties
